@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class=' btn_overlay _hide' id="btn_overlay "></div>
+    <section>
+        <button class="red">Кликни</button>
+    </section>
+    <div class="popup _hide">
+        <img class="close" src="/img/close.png"> </img>
+        <h2>Получите набор файлов
+            для руководителя: </h2>
+        <div class="popup-content">
+            <div class="left">
+                <img class='desc' src="img/desk_img.png" alt="">
+                <img class="mob" src="img/mob_img.png" alt="">
+            </div>
+            <div class="right">
+                <form action="#" id="form">
+                    <div class=" loading-bar-spinner spinner">
+                        <div class="spinner-icon"></div>
+                    </div>
+                    <fieldset>
+                        <p>
+                            Введите Email для получения файлов:</p>
+                        <input type="text" name="email" class="_email _req" placeholder="E-mail" id="email" />
+                    </fieldset>
+                    <fieldset>
+                        <p>Введите телефон для подтверждения доступа:</p>
+                        <input type="text" name="phone" class="_phone _req" placeholder="+7(000)000-00-00" id="phone" />
+                    </fieldset>
+
+                    <button type="submit"><img src="/img/btn.png" alt=""></button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
